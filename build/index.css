@@ -1,0 +1,30 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-glutenberg-glutenberg {
+  border: 1px dotted #f00;
+}
+
+.wp-block-glutenberg-glutenberg label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wp-block-glutenberg-glutenberg input[type=text] {
+  max-width: 100%;
+  background: #0008;
+  border: none !important;
+  color: #fff;
+  text-shadow: 3px 3px 3px #000d;
+  outline: none !important;
+  font-size: 20px;
+  box-shadow: none !important;
+  text-align: inherit;
+}
+
+/*# sourceMappingURL=index.css.map*/

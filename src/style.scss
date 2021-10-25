@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+// @font-face {
+//     font-family: Gilbert;
+//     src: url('./gilbert-color.otf');
+//     font-weight: bold;
+// }
+
+.wp-block-glutenberg-glutenberg {
+	color: #fff;
+    text-shadow: 3px 3px 3px #000d;
+    background: #000
+        url(https://source.unsplash.com/800x800/?bread)
+        center / 
+        cover 
+        no-repeat;
+    padding: 5%;
+    font-weight: bold;
+    &.pasta{
+        background-image: url(https://source.unsplash.com/800x800/?pasta);
+    }
+    &.beer{
+        background-image: url(https://source.unsplash.com/800x800/?beer);
+    }
+}

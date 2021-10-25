@@ -1,0 +1,32 @@
+{
+	"apiVersion": 2,
+	"name": "glutenberg/glutenberg",
+	"version": "0.1.0",
+	"title": "Glutenberg",
+	"category": "text",
+	"icon": "beer",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "glutenberg",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+	    "message": {
+	        "type": "string",
+	        "source": "text",
+	        "selector": "div",
+	        "default": ""
+	    },
+	    "alignment" : {
+	    	"type": "string",
+	    	"default": "none"
+	    },
+	    "glutenSource" : {
+	    	"type": "string",
+	    	"default": "Bread"
+	    }
+	}
+}

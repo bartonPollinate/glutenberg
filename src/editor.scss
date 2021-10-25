@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-glutenberg-glutenberg {
+	border: 1px dotted #f00;
+}
+.wp-block-glutenberg-glutenberg label {
+    font-size: 20px;
+    font-weight: bold;
+}
+.wp-block-glutenberg-glutenberg input[type="text"] {
+    max-width: 100%;
+    background: #0008;
+    border: none !important;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000d;
+    outline: none !important;
+    font-size: 20px;
+    box-shadow: none !important;
+    text-align: inherit;
+}
